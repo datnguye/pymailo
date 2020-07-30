@@ -21,9 +21,10 @@ python -m pip install -r requirements.txt
 
 3. Create dotenv file: ~/pymailo/.env
 ```
-DISCORD_TOKEN=your_token
-DISCORD_GUILD=your_discord_server_name
-ERROR_PATH=/path/to/your_file.log
+SMTP_HOST=smtp.gmail.com
+SMTP_PORT=587
+SMTP_EMAIL=xxx
+SMTP_PASSWORD=xxx
 ```
 
 4. Run it!
