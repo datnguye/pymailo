@@ -41,12 +41,6 @@ Python 3.7.5
 ### USAGE - run.py
 
 ```
-from pymailo import bot
-bot.start()
+from pymailo import smtp
+smtp.send(recipient=['datnguyen.it09@gmail.com'],subject='Hello World!',body='Why, oh  why?')
 ```
-
-### Available Commands
-Typing -help in discord to see available commands
-
-
-![Sample](/resources/sample.png)
