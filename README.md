@@ -25,6 +25,8 @@ SMTP_HOST=smtp.gmail.com
 SMTP_PORT=587
 SMTP_EMAIL=xxx
 SMTP_PASSWORD=xxx
+
+SENDGRID_APIKEY=your_api_key
 ```
 
 4. Run it!
